@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  player_id: 
+  round_id: 
+  player_round_id: 
+  hole_id: 
+  points: 1
+
+two:
+  player_id: 
+  round_id: 
+  player_round_id: 
+  hole_id: 
+  points: 1

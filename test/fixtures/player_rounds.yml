@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  player_id: 
+  round_id: 
+  no_three_pointers: false
+
+two:
+  player_id: 
+  round_id: 
+  no_three_pointers: false
