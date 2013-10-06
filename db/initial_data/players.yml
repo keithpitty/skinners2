@@ -358,3 +358,15 @@ mark_rowell:
   first_name: Mark
   last_name: Rowell
   active: true
+mark_hines:
+  id: 61
+  player_number: 5872
+  first_name: Mark
+  last_name: Hines
+  active: true
+david_wiseman:
+  id: 62
+  player_number: 1650
+  first_name: David
+  last_name: Wiseman
+  active: true
