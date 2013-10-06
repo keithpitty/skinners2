@@ -1,0 +1,360 @@
+grahaeme_anderson:
+  id: 1
+  player_number: 27
+  first_name: Grahaeme
+  last_name: Anderson
+  active: true
+paul_ball:
+  id: 2
+  player_number: 412
+  first_name: Paul
+  last_name: Ball
+  active: true
+gary_belgre:
+  id: 3
+  player_number: 61
+  first_name: Gary
+  last_name: Belgre
+  active: true
+terry_bowers:
+  id: 4
+  player_number: 84
+  first_name: Terry
+  last_name: Bowers
+  active: true
+jim_cameron:
+  id: 5
+  player_number: 1335
+  first_name: Jim
+  last_name: Cameron
+  active: true
+vaughan_chatillon:
+  id: 6
+  player_number: 3554
+  first_name: Vaughan
+  last_name: Chatillon
+  active: false
+john_clouten:
+  id: 7
+  player_number: 155
+  first_name: John
+  last_name: Clouten
+  active: true
+phil_coles:
+  id: 8
+  player_number: 159
+  first_name: Phil
+  last_name: Coles
+  active: false
+richie_connell:
+  id: 9
+  player_number: 162
+  first_name: Richie
+  last_name: Connell
+  active: true
+don_crittenden:
+  id: 10
+  player_number: 171
+  first_name: Don
+  last_name: Crittenden
+  active: true
+steve_dashwood:
+  id: 11
+  player_number: 1197
+  first_name: Steve
+  last_name: Dashwood
+  active: true
+neil_davies:
+  id: 12
+  player_number: 1785
+  first_name: Neil
+  last_name: Davies
+  active: false
+tony_eden:
+  id: 13
+  player_number: 1499
+  first_name: Tony
+  last_name: Eden
+  active: true
+tom_foreshew:
+  id: 14
+  player_number: 245
+  first_name: Tom
+  last_name: Foreshew
+  active: true
+paul_garnam:
+  id: 15
+  player_number: 256
+  first_name: Paul
+  last_name: Garnam
+  active: true
+dale_garrett:
+  id: 16
+  player_number: 258
+  first_name: Dale
+  last_name: Garrett
+  active: true
+harry_henry:
+  id: 17
+  player_number: 315
+  first_name: Harry
+  last_name: Henry
+  active: true
+norm_hollis:
+  id: 18
+  player_number: 3
+  first_name: Norm
+  last_name: Hollis
+  active: true
+terry_hook:
+  id: 19
+  player_number: 342
+  first_name: Terry
+  last_name: Hook
+  active: true
+bill_huxtable:
+  id: 20
+  player_number: 190
+  first_name: Bill
+  last_name: Huxtable
+  active: true
+chris_johnson:
+  id: 21
+  player_number: 380
+  first_name: Chris
+  last_name: Johnson
+  active: false
+john_lunney_jnr:
+  id: 22
+  player_number: 1975
+  first_name: John
+  last_name: Lunney Jnr
+  active: true
+john_lunney_snr:
+  id: 23
+  player_number: 1103
+  first_name: John
+  last_name: Lunney Snr
+  active: true
+steve_mason:
+  id: 24
+  player_number: 504
+  first_name: Steve
+  last_name: Mason
+  active: true
+neil_mcdougall:
+  id: 25
+  player_number: 470
+  first_name: Neil
+  last_name: McDougall
+  active: true
+brian_mckelvey:
+  id: 26
+  player_number: 1311
+  first_name: Brian
+  last_name: McKelvey
+  active: true
+howard_moore:
+  id: 27
+  player_number: 1322
+  first_name: Howard
+  last_name: Moore
+  active: true
+graham_mulholland:
+  id: 28
+  player_number: 541
+  first_name: Graham
+  last_name: Mulholland
+  active: true
+peter_nesteroff:
+  id: 29
+  player_number: 5
+  first_name: Peter
+  last_name: Nesteroff
+  active: true
+barry_obrien:
+  id: 30
+  player_number: 575
+  first_name: Barry
+  last_name: O'Brien
+  active: true
+mark_osborne:
+  id: 31
+  player_number: 3147
+  first_name: Mark
+  last_name: Osborne
+  active: true
+neil_oven:
+  id: 32
+  player_number: 555
+  first_name: Neil
+  last_name: Oven
+  active: true
+joe_palesy:
+  id: 33
+  player_number: 589
+  first_name: Joe
+  last_name: Palesy
+  active: true
+lee_payne:
+  id: 34
+  player_number: 607
+  first_name: Lee
+  last_name: Payne
+  active: true
+keith_pitty:
+  id: 35
+  player_number: 1178
+  first_name: Keith
+  last_name: Pitty
+  active: true
+greg_prestwidge:
+  id: 36
+  player_number: 615
+  first_name: Greg
+  last_name: Prestwidge
+  active: true
+bob_rhodes:
+  id: 37
+  player_number: 2878
+  first_name: Bob
+  last_name: Rhodes
+  active: false
+marshall_sanderson:
+  id: 38
+  player_number: 649
+  first_name: Marshall
+  last_name: Sanderson
+  active: true
+murray_shaw:
+  id: 39
+  player_number: 913
+  first_name: Murray
+  last_name: Shaw
+  active: true
+nigel_smith:
+  id: 40
+  player_number: 1162
+  first_name: Nigel
+  last_name: Smith
+  active: true
+paul_smithson:
+  id: 41
+  player_number: 1494
+  first_name: Paul
+  last_name: Smithson
+  active: true
+ian_spielvogel:
+  id: 42
+  player_number: 11
+  first_name: Ian
+  last_name: Spielvogel
+  active: false
+peter_stannard:
+  id: 43
+  player_number: 365
+  first_name: Peter
+  last_name: Stannard
+  active: true
+graham_taylor:
+  id: 44
+  player_number: 6
+  first_name: Graham
+  last_name: Taylor
+  active: false
+ian_thompson:
+  id: 45
+  player_number: 782
+  first_name: Ian
+  last_name: Thompson
+  active: false
+ken_vaughan:
+  id: 46
+  player_number: 811
+  first_name: Ken
+  last_name: Vaughan
+  active: true
+gary_worboys:
+  id: 47
+  player_number: 1299
+  first_name: Gary
+  last_name: Warboys
+  active: true
+john_weary:
+  id: 48
+  player_number: 834
+  first_name: John
+  last_name: Weary
+  active: false
+craig_wickham:
+  id: 49
+  player_number: 851
+  first_name: Craig
+  last_name: Wickham
+  active: true
+john_witten:
+  id: 50
+  player_number: 12
+  first_name: John
+  last_name: Witten
+  active: true
+jason_hyde:
+  id: 51
+  player_number: 274
+  first_name: Jason
+  last_name: Hyde
+  active: false
+wayne_newton:
+  id: 52
+  player_number: 4851
+  first_name: Wayne
+  last_name: Newton
+  active: false
+brian_hore:
+  id: 53
+  player_number: 66
+  first_name: Brian
+  last_name: Hore
+  active: true
+paul_nancarrow:
+  id: 54
+  player_number: 521
+  first_name: Paul
+  last_name: Nancarrow
+  active: true
+russell_bunn:
+  id: 55
+  player_number: 114
+  first_name: Russell
+  last_name: Bunn
+  active: true
+trevor_tynan:
+  id: 56
+  player_number: 805
+  first_name: Trevor
+  last_name: Tynan
+  active: true
+leon_du_chateau:
+  id: 57
+  player_number: 203
+  first_name: Leon
+  last_name: du Chateau
+  active: true
+ron_cremen:
+  id: 58
+  player_number: 93
+  first_name: Ron
+  last_name: Cremen
+  active: true
+damien_wall:
+  id: 59
+  player_number: 3184
+  first_name: Damien
+  last_name: Wall
+  active: true
+mark_rowell:
+  id: 60
+  player_number: 3230
+  first_name: Mark
+  last_name: Rowell
+  active: true
