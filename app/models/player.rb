@@ -8,4 +8,9 @@ class Player < ActiveRecord::Base
   def name
     "#{first_name} #{last_name}"
   end
+  
+  def has_played_this_season?
+    player_rounds.size > 0
+  end
+  
 end
