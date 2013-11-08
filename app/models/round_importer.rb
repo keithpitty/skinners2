@@ -10,7 +10,7 @@ class RoundImporter
   def perform
     CSV.foreach(@file_name, csv_options) do |row|
       unless header?(row)
-        player_round = PlayerRound.create!(:player => player(row[0]), :round => @round)
+        player_round = PlayerRound.create!(player: player(row[0]), round: @round)
         ScoresCreator.new(row, player_round: player_round).perform
         NoThreePointersChecker.new(row, player_round: player_round).perform
       end
