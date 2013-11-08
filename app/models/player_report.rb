@@ -36,7 +36,7 @@ class PlayerReport
   end
 
   def totals
-    
+    # TODO complete
   end
 
   def table_options
