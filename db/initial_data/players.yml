@@ -376,3 +376,9 @@ peter_wouterlood:
   first_name: Peter
   last_name: Wouterlood
   active: true
+duncan_hogg:
+  id: 64
+  player_number: 6166
+  first_name: Duncan
+  last_name: Hogg
+  active: true
