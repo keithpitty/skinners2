@@ -382,3 +382,9 @@ duncan_hogg:
   first_name: Duncan
   last_name: Hogg
   active: true
+bob_nicholson:
+  id: 65
+  player_number: 1597
+  first_name: Bob
+  last_name: Nicholson
+  active: true
