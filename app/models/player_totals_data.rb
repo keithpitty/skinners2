@@ -1,8 +1,8 @@
 class PlayerTotalsData
 
-  def initialize(player_rounds)
-    @player_rounds = player_rounds
-    @totals_data = []
+  def initialize(player)
+    @player = player
+    @player_rounds = player.player_rounds
     @hole_totals = {}
     (1..18).each { |h| @hole_totals[h] = 0 }
     @total_points = 0
@@ -11,10 +11,22 @@ class PlayerTotalsData
     @total_5_pointers = 0
     @total_skins = 0
     @total_ntp = 0
+    generate_totals
   end
 
   def totals_data
-    @totals_data << "TOTALS"
+    data = ["TOTALS"]
+    add_totals(data)
+  end
+
+  def data_for_summary
+    data = [@player.name]
+    add_totals(data)
+  end
+
+  private
+
+  def generate_totals
     @player_rounds.each do |player_round|
       player_round.scores.each do |score|
         @hole_totals[score.hole.number] += score.points
@@ -26,17 +38,19 @@ class PlayerTotalsData
       @total_skins += skins_for_round(player_round)
       @total_ntp += 1 if player_round.no_three_pointers?
     end
-    @hole_totals.each_value { |t| @totals_data << t.to_s }
-    @totals_data << @total_3_pointers.to_s
-    @totals_data << @total_4_pointers.to_s
-    @totals_data << @total_5_pointers.to_s
-    @totals_data << @total_points.to_s
-    @totals_data << @total_skins.to_s
-    @totals_data << (@total_skins * 3).to_s
-    @totals_data << @total_ntp.to_s
   end
 
-  private
+  def add_totals(data)
+    @hole_totals.each_value { |t| data << t.to_s }
+    data << @total_3_pointers.to_s
+    data << @total_4_pointers.to_s
+    data << @total_5_pointers.to_s
+    data << @total_points.to_s
+    data << @total_skins.to_s
+    data << (@total_skins * 3).to_s
+    data << @total_ntp.to_s
+    data
+  end
 
   def skins_for_round(player_round)
     player_name = player_round.player.name

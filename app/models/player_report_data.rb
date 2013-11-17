@@ -41,7 +41,7 @@ class PlayerReportData
   end
 
   def totals
-    PlayerTotalsData.new(player_rounds).totals_data
+    PlayerTotalsData.new(@player).totals_data
   end
 
 end
