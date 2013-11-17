@@ -31,9 +31,9 @@ class PlayerReportData
   private
 
   def headers
-      ["Date", " 1", " 2", " 3", " 4", " 5", " 6", " 7", " 8", " 9", 
-      "10", "11", "12", "13", "14", "15", "16", "17", "18",
-      "3P", "4P", "5P", "Total", "Skins", "  $", "NTP"]
+    ["Date", " 1", " 2", " 3", " 4", " 5", " 6", " 7", " 8", " 9", 
+    "10", "11", "12", "13", "14", "15", "16", "17", "18",
+    "3P", "4P", "5P", "Total", "Skins", "  $", "NTP"]
   end
 
   def player_rounds
@@ -41,8 +41,7 @@ class PlayerReportData
   end
 
   def totals
-    # TODO complete
-    []
+    PlayerTotalsData.new(player_rounds).totals_data
   end
 
 end

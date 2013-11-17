@@ -1,13 +1,11 @@
 class RoundWinnersCalculator
 
-  attr_reader :winners
-
   def initialize(round)
     @round = round
     @winners = {}
   end
 
-  def perform
+  def winners
     skins = 0
     (1..18).each do |hole|
       skins += 1
@@ -16,6 +14,7 @@ class RoundWinnersCalculator
         skins = 0
       end
     end
+    @winners
   end
 
   private

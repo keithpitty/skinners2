@@ -49,9 +49,7 @@ class PlayerRoundData
   end
 
   def round_winners
-    calculator = RoundWinnersCalculator.new(@player_round.round)
-    calculator.perform
-    calculator.winners
+    RoundWinnersCalculator.new(@player_round.round).winners
   end
 
   def no_three_pointers
