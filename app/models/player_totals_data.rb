@@ -21,7 +21,7 @@ class PlayerTotalsData
         @total_points += score.points
         @total_3_pointers += 1 if score.points == 3
         @total_4_pointers += 1 if score.points == 4
-        @score_5_pointers += 1 if score.points == 5
+        @total_5_pointers += 1 if score.points == 5
       end
       @total_skins += skins_for_round(player_round)
       @total_ntp += 1 if player_round.no_three_pointers?
