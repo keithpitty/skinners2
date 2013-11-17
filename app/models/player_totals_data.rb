@@ -24,6 +24,7 @@ class PlayerTotalsData
         @score_5_pointers += 1 if score.points == 5
       end
       @total_skins += skins_for_round(player_round)
+      @total_ntp += 1 if player_round.no_three_pointers?
     end
     @hole_totals.each_value { |t| @totals_data << t.to_s }
     @totals_data << @total_3_pointers.to_s
