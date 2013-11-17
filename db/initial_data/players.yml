@@ -237,7 +237,7 @@ nigel_smith:
   player_number: 1162
   first_name: Nigel
   last_name: Smith
-  active: true
+  active: false
 paul_smithson:
   id: 41
   player_number: 1494
