@@ -3,8 +3,10 @@ class PlayerRound < ActiveRecord::Base
   belongs_to :round
   has_many :scores
 
-  def points_for_hole(hole)
-    @scores_hash[hole_number] ? @scores_hash[hole_number].points : 0
+  delegate :date_played, to: :round
+
+  def points_for_hole(hole_number)
+    scores_hash[hole_number] ? scores_hash[hole_number].points : 0
   end
 
   private
@@ -15,7 +17,7 @@ class PlayerRound < ActiveRecord::Base
 
   def derive_hash
     scores_hash = {}
-    scores.each { |scores| scores_hash[score.hole_number] = score }
+    scores.each { |score| scores_hash[score.hole.number] = score }
     scores_hash
   end
 

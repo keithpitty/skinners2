@@ -2,16 +2,17 @@ class PlayerRoundData
 
   def initialize(player_round)
     @player_round = player_round
+    @player = player_round.player
     @player_round_data = []
   end
 
   def data
-    @player_round_data << @player_round.date.strftime("%d/%m/%Y")
+    @player_round_data << @player_round.date_played.strftime("%d/%m/%Y")
     concatenate_points_for_holes
     concatenate_x_pointers
-    @player_round_data << total_points
-    @player_round_data << skins
-    @player_round_data << dollars
+    @player_round_data << total_points.to_s
+    @player_round_data << skins.to_s
+    @player_round_data << dollars.to_s
     @player_round_data << no_three_pointers
     @player_round_data
   end
@@ -29,11 +30,11 @@ class PlayerRoundData
   def x_pointers_count(n)
     count = 0
     (1..18).each { |h| count += 1 if (@player_round.points_for_hole(h) == n) }
-    count
+    count.to_s
   end
 
   def total_points
-    total
+    total = 0
     @player_round.scores.each { |score| total += score.points }
     total
   end
@@ -44,7 +45,7 @@ class PlayerRoundData
 
   def skins
     @round_winners ||= round_winners 
-    @round_winners.include?(@player_round.player.name) ? winners[player.name] : 0
+    @round_winners.include?(@player.name) ? round_winners[@player.name] : 0
   end
 
   def round_winners
