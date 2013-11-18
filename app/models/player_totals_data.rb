@@ -1,7 +1,10 @@
 class PlayerTotalsData
 
+  attr_reader :name, :total_points
+
   def initialize(player)
     @player = player
+    @name = player.name
     @player_rounds = player.player_rounds
     @hole_totals = {}
     (1..18).each { |h| @hole_totals[h] = 0 }

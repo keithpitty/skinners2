@@ -12,4 +12,10 @@ namespace :report do
     SummaryReport.new.generate
   end
 
+  desc "Generate top 10 points getters report"
+  task :top10 => :environment do
+    puts "Generating top 10 report..."
+    TopTenReport.new.generate
+  end
+
 end
