@@ -18,4 +18,17 @@ namespace :report do
     TopTenReport.new.generate
   end
 
+  desc "Generate total scores by hole report"
+  task :by_hole => :environment do
+    puts "Generating by hole report..."
+    ByHoleReport.new.generate
+  end
+
+  desc "Generate all reports"
+  task :all => [ :environment, 
+                 'report:players', 
+                 'report:summary', 
+                 'report:top10', 
+                 'report:by_hole' ]
+
 end
