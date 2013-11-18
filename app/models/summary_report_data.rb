@@ -6,7 +6,7 @@ class SummaryReportData
 
   def summary_data
     result = [headers]
-    players = Player.where(active:true).sort_by { |p| p.last_name.downcase }
+    players = Player.where(active: true).sort_by { |p| p.last_name.downcase }
     players.each { |player| result << PlayerTotalsData.new(player).data_for_summary }
     result
   end
