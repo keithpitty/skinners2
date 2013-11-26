@@ -8,7 +8,7 @@ class ByHoleReport
     Prawn::Document.generate("reports/by_hole.pdf") do
       font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
       font_size 14
-      text "2012 Saturday Skins: Totals by Hole"
+      text "#{Date.today.year} Saturday Skins: Totals by Hole"
       text " "
       text " "
       data = ByHoleReportData.new
