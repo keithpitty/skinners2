@@ -5,7 +5,7 @@ class PlayerReport
 
   def initialize(player)
     @player = player
-    @filename = "reports/#{player.first_name.downcase}_#{player.last_name.downcase}.pdf"
+    @filename = "reports/#{player.last_name.downcase}_#{player.first_name.downcase}.pdf"
   end
 
   def generate

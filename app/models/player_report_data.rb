@@ -5,7 +5,7 @@ class PlayerReportData
   end
 
   def heading
-    "2012 Saturday Skins: #{@player.name}"
+    "#{Date.today.year} Saturday Skins: #{@player.name}"
   end
 
   def exists_for_season?
