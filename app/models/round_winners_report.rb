@@ -6,7 +6,6 @@ class RoundWinnersReport
 
   def perform
     @calculator = RoundWinnersCalculator.new(@round)
-    @calculator.perform
     report 
   end
 
