@@ -400,3 +400,9 @@ peter_kent:
   first_name: Peter
   last_name: Kent
   active: true
+peter_tant:
+  id: 68
+  player_number: 882
+  first_name: Peter
+  last_name: Tant
+  active: true
