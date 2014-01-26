@@ -9,7 +9,7 @@ paul_ball:
   player_number: 412
   first_name: Paul
   last_name: Ball
-  active: true
+  active: false
 gary_belgre:
   id: 3
   player_number: 61
@@ -21,7 +21,7 @@ terry_bowers:
   player_number: 84
   first_name: Terry
   last_name: Bowers
-  active: true
+  active:  false
 jim_cameron:
   id: 5
   player_number: 1335
@@ -117,7 +117,7 @@ bill_huxtable:
   player_number: 190
   first_name: Bill
   last_name: Huxtable
-  active: true
+  active:  false
 chris_johnson:
   id: 21
   player_number: 380
@@ -141,7 +141,7 @@ steve_mason:
   player_number: 504
   first_name: Steve
   last_name: Mason
-  active: true
+  active: false
 neil_mcdougall:
   id: 25
   player_number: 470
@@ -177,7 +177,7 @@ barry_obrien:
   player_number: 575
   first_name: Barry
   last_name: O'Brien
-  active: true
+  active: false
 mark_osborne:
   id: 31
   player_number: 3147
@@ -225,7 +225,7 @@ marshall_sanderson:
   player_number: 649
   first_name: Marshall
   last_name: Sanderson
-  active: true
+  active: false
 murray_shaw:
   id: 39
   player_number: 913
@@ -351,7 +351,7 @@ damien_wall:
   player_number: 3184
   first_name: Damien
   last_name: Wall
-  active: true
+  active: false
 mark_rowell:
   id: 60
   player_number: 3230
@@ -387,4 +387,16 @@ bob_nicholson:
   player_number: 1597
   first_name: Bob
   last_name: Nicholson
+  active: true
+paul_dickinson:
+  id: 66
+  player_number: 1135
+  first_name: Paul
+  last_name: Dickinson
+  active: true
+peter_kent:
+  id: 67
+  player_number: 398
+  first_name: Peter
+  last_name: Kent
   active: true
