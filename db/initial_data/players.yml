@@ -406,3 +406,15 @@ peter_tant:
   first_name: Peter
   last_name: Tant
   active: true
+eli_kent:
+  id: 69
+  player_number: 1153
+  first_name: Eli
+  last_name: Kent
+  active: true
+paul_dekort:
+  id: 70
+  player_number: 1957
+  first_name: Paul
+  last_name: Dekort
+  active: true
