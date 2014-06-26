@@ -418,3 +418,9 @@ paul_dekort:
   first_name: Paul
   last_name: Dekort
   active: true
+david_mcphan:
+  id: 71
+  player_number: 32
+  first_name: David
+  last_name: McPhan
+  active: true
