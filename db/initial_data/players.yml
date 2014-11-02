@@ -424,3 +424,8 @@ david_mcphan:
   first_name: David
   last_name: McPhan
   active: true
+mark_newbury:
+  id: 72
+  player_number: 7515
+  first_name: Mark
+  last_name: Newbury
