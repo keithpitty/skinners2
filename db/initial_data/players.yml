@@ -351,7 +351,7 @@ damien_wall:
   player_number: 3184
   first_name: Damien
   last_name: Wall
-  active: false
+  active: true
 mark_rowell:
   id: 60
   player_number: 3230
@@ -363,7 +363,7 @@ mark_hines:
   player_number: 5872
   first_name: Mark
   last_name: Hines
-  active: true
+  active: false
 david_wiseman:
   id: 62
   player_number: 1650
