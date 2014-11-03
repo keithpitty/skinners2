@@ -63,7 +63,7 @@ steve_dashwood:
   player_number: 1197
   first_name: Steve
   last_name: Dashwood
-  active: true
+  active: false
 neil_davies:
   id: 12
   player_number: 1785
@@ -201,7 +201,7 @@ lee_payne:
   player_number: 607
   first_name: Lee
   last_name: Payne
-  active: true
+  active: false
 keith_pitty:
   id: 35
   player_number: 1178
