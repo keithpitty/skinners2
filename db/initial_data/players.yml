@@ -99,7 +99,7 @@ harry_henry:
   player_number: 315
   first_name: Harry
   last_name: Henry
-  active: true
+  active: false
 norm_hollis:
   id: 18
   player_number: 3
@@ -129,7 +129,7 @@ john_lunney_jnr:
   player_number: 1975
   first_name: John
   last_name: Lunney Jnr
-  active: true
+  active: false
 john_lunney_snr:
   id: 23
   player_number: 1103
@@ -381,7 +381,7 @@ duncan_hogg:
   player_number: 6166
   first_name: Duncan
   last_name: Hogg
-  active: true
+  active: false
 bob_nicholson:
   id: 65
   player_number: 1597
