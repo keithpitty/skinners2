@@ -13,7 +13,7 @@ class SummaryReportData
 
   def table_options
     { 
-      cell_style:         { size: 8, padding: [1.6, 2.9] },
+      cell_style:         { size: 7.5, padding: [1.6, 2.9] },
       header:             true,
       row_colors:         ["ffffff", "eeeeee"]
     }
