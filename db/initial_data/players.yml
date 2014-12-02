@@ -9,7 +9,7 @@ paul_ball:
   player_number: 412
   first_name: Paul
   last_name: Ball
-  active: false
+  active: true
 gary_belgre:
   id: 3
   player_number: 61
@@ -63,7 +63,7 @@ steve_dashwood:
   player_number: 1197
   first_name: Steve
   last_name: Dashwood
-  active: false
+  active: true
 neil_davies:
   id: 12
   player_number: 1785
@@ -99,7 +99,7 @@ harry_henry:
   player_number: 315
   first_name: Harry
   last_name: Henry
-  active: false
+  active: true
 norm_hollis:
   id: 18
   player_number: 3
@@ -117,7 +117,7 @@ bill_huxtable:
   player_number: 190
   first_name: Bill
   last_name: Huxtable
-  active:  false
+  active: true 
 chris_johnson:
   id: 21
   player_number: 380
@@ -129,7 +129,7 @@ john_lunney_jnr:
   player_number: 1975
   first_name: John
   last_name: Lunney Jnr
-  active: false
+  active: true
 john_lunney_snr:
   id: 23
   player_number: 1103
@@ -381,7 +381,7 @@ duncan_hogg:
   player_number: 6166
   first_name: Duncan
   last_name: Hogg
-  active: false
+  active: true
 bob_nicholson:
   id: 65
   player_number: 1597
