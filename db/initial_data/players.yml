@@ -429,3 +429,4 @@ mark_newbury:
   player_number: 7515
   first_name: Mark
   last_name: Newbury
+  active: true
