@@ -28,11 +28,11 @@ class RoundImporter
   end
 
   def header?(row)
-    row.first == 'Player number'
+    row.first == 'Player id'
   end
 
-  def player(player_number)
-    Player.find_by player_number: player_number
+  def player(player_id)
+    Player.find player_id
   end
 
 end
