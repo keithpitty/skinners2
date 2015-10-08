@@ -52,7 +52,7 @@ steve_dashwood:
   id: 11
   first_name: Steve
   last_name: Dashwood
-  active: true
+  active: false
 neil_davies:
   id: 12
   first_name: Neil
@@ -82,7 +82,7 @@ harry_henry:
   id: 17
   first_name: Harry
   last_name: Henry
-  active: true
+  active: false
 norm_hollis:
   id: 18
   first_name: Norm
@@ -97,7 +97,7 @@ bill_huxtable:
   id: 20
   first_name: Bill
   last_name: Huxtable
-  active: true 
+  active: false
 chris_johnson:
   id: 21
   first_name: Chris
@@ -107,7 +107,7 @@ john_lunney_jnr:
   id: 22
   first_name: John
   last_name: Lunney Jnr
-  active: true
+  active: false
 john_lunney_snr:
   id: 23
   first_name: John
@@ -317,7 +317,7 @@ duncan_hogg:
   id: 64
   first_name: Duncan
   last_name: Hogg
-  active: true
+  active: false
 bob_nicholson:
   id: 65
   first_name: Bob
