@@ -358,3 +358,13 @@ mark_newbury:
   first_name: Mark
   last_name: Newbury
   active: true
+allan_sharpe:
+  id: 73
+  first_name: Allan
+  last_name: Sharpe
+  active: true
+john_elder:
+  id: 74
+  first_name: John
+  last_name: Elder
+  active: true
