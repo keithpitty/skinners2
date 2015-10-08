@@ -11,15 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131006005950) do
+ActiveRecord::Schema.define(version: 20151008095218) do
 
-  create_table "holes", force: true do |t|
+  create_table "holes", force: :cascade do |t|
     t.integer  "number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "player_rounds", force: true do |t|
+  create_table "player_rounds", force: :cascade do |t|
     t.integer  "player_id"
     t.integer  "round_id"
     t.boolean  "no_three_pointers"
@@ -30,22 +30,21 @@ ActiveRecord::Schema.define(version: 20131006005950) do
   add_index "player_rounds", ["player_id"], name: "index_player_rounds_on_player_id"
   add_index "player_rounds", ["round_id"], name: "index_player_rounds_on_round_id"
 
-  create_table "players", force: true do |t|
+  create_table "players", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
     t.boolean  "active"
-    t.integer  "player_number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "rounds", force: true do |t|
+  create_table "rounds", force: :cascade do |t|
     t.date     "date_played"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "scores", force: true do |t|
+  create_table "scores", force: :cascade do |t|
     t.integer  "player_id"
     t.integer  "round_id"
     t.integer  "player_round_id"
