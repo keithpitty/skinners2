@@ -212,7 +212,7 @@ peter_stannard:
   id: 43
   first_name: Peter
   last_name: Stannard
-  active: true
+  active: false
 graham_taylor:
   id: 44
   first_name: Graham
@@ -267,7 +267,7 @@ paul_nancarrow:
   id: 54
   first_name: Paul
   last_name: Nancarrow
-  active: true
+  active: false
 russell_bunn:
   id: 55
   first_name: Russell
