@@ -373,3 +373,8 @@ glen_kershaw:
   first_name: Glen
   last_name: Kershaw
   active: true
+jack_osborne:
+  id: 76
+  first_name: Jack
+  last_name: Osborne
+  active: true
