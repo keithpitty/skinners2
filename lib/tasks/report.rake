@@ -12,10 +12,10 @@ namespace :report do
     SummaryReport.new.generate
   end
 
-  desc "Generate top 10 points getters report"
-  task :top10 => :environment do
-    puts "Generating top 10 report..."
-    TopTenReport.new.generate
+  desc "Generate top 20 points getters report"
+  task :top20 => :environment do
+    puts "Generating top 20 report..."
+    TopTwentyReport.new.generate
   end
 
   desc "Generate total scores by hole report"
@@ -28,7 +28,7 @@ namespace :report do
   task :all => [ :environment, 
                  'report:players', 
                  'report:summary', 
-                 'report:top10', 
+                 'report:top20', 
                  'report:by_hole' ]
 
 end
