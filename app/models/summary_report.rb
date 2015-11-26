@@ -6,7 +6,7 @@ class SummaryReport
 
   def generate
     Prawn::Document.generate("reports/summary.pdf") do
-      font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
+      font "Helvetica"
       font_size 14
       text "#{Date.today.year} Saturday Skinners: Summary"
       data = SummaryReportData.new

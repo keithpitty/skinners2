@@ -1,5 +1,4 @@
 require 'prawn'
-require 'prawn/layout'
 
 class PlayerReport
 
@@ -12,7 +11,7 @@ class PlayerReport
     puts "Generating report for #{@player.name}"
     data = PlayerReportData.new(@player)
     Prawn::Document.generate(@filename) do
-      font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
+      font "Helvetica"
       font_size 14
       text data.heading
       text " "

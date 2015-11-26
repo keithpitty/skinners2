@@ -6,7 +6,7 @@ class TopTenReport
 
   def generate
     Prawn::Document.generate("reports/top_10.pdf") do
-      font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
+      font "Helvetica"
       font_size 14
       text "#{Date.today.year} Saturday Skins: Top 10 Points Getters"
       text " "

@@ -6,7 +6,7 @@ class ByHoleReport
 
   def generate
     Prawn::Document.generate("reports/by_hole.pdf") do
-      font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
+      font "Helvetica"
       font_size 14
       text "#{Date.today.year} Saturday Skins: Totals by Hole"
       text " "
