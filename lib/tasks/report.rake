@@ -24,11 +24,18 @@ namespace :report do
     ByHoleReport.new.generate
   end
 
+  desc "Generate no 3 pointers report"
+  task :no_3_pointers => :environment do
+    puts "Generating no 3 pointers report..."
+    NoThreePointersReport.new.generate
+  end
+
   desc "Generate all reports"
   task :all => [ :environment, 
                  'report:players', 
                  'report:summary', 
-                 'report:top20', 
+                 'report:top20',
+                 'report:no_3_pointers',
                  'report:by_hole' ]
 
 end
