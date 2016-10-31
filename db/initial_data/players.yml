@@ -207,7 +207,7 @@ ian_spielvogel:
   id: 42
   first_name: Ian
   last_name: Spielvogel
-  active: false
+  active: true
 peter_stannard:
   id: 43
   first_name: Peter
