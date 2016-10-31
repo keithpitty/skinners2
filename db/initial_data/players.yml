@@ -378,3 +378,8 @@ jack_osborne:
   first_name: Jack
   last_name: Osborne
   active: true
+dennis_honeysett:
+  id: 77
+  first_name: Dennis
+  last_name: Honeysett
+  active: true
