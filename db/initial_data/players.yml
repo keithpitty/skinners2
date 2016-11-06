@@ -383,3 +383,8 @@ dennis_honeysett:
   first_name: Dennis
   last_name: Honeysett
   active: true
+kirk_jones:
+  id: 78
+  first_name: Kirk
+  last_name: Jones
+  active: true
