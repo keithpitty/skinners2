@@ -167,7 +167,7 @@ lee_payne:
   id: 34
   first_name: Lee
   last_name: Payne
-  active: false
+  active: active
 keith_pitty:
   id: 35
   first_name: Keith
@@ -277,7 +277,7 @@ trevor_tynan:
   id: 56
   first_name: Trevor
   last_name: Tynan
-  active: true
+  active: false
 leon_du_chateau:
   id: 57
   first_name: Leon
