@@ -132,7 +132,7 @@ howard_moore:
   id: 27
   first_name: Howard
   last_name: Moore
-  active: true
+  active: false
 graham_mulholland:
   id: 28
   first_name: Graham
