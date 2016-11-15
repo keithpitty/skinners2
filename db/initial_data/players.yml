@@ -388,3 +388,8 @@ kirk_jones:
   first_name: Kirk
   last_name: Jones
   active: true
+peter_armstrong:
+  id: 79
+  first_name: Peter
+  last_name: Armstrong
+  active: true
