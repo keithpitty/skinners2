@@ -392,7 +392,7 @@ peter_armstrong:
   id: 79
   first_name: Peter
   last_name: Armstrong
-  active: true
+  active: false
 chris_orourke:
   id: 80
   first_name: Chris
