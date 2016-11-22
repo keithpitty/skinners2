@@ -252,7 +252,7 @@ jason_hyde:
   id: 51
   first_name: Jason
   last_name: Hyde
-  active: false
+  active: true
 wayne_newton:
   id: 52
   first_name: Wayne
