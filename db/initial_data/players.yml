@@ -398,3 +398,8 @@ chris_orourke:
   first_name: Chris
   last_name: O'Rourke
   active: true
+gary_findlay:
+  id: 81
+  first_name: Gary
+  last_name: Findlay
+  active: true
