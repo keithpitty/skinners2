@@ -9,7 +9,12 @@ class TopTwentyReportData
 
   def top_20_data
     result = [["#", "Player", "Points"]]
-    (1..20).each { |i| result << [ i.to_s, @players_data[i-1].name, @players_data[i-1].total_points.to_s ] }
+    previous_points = 0
+    (1..20).each do |i|
+      rank = adjusted_rank(i, @players_data[i-1].total_points, previous_points)
+      result << [ rank, @players_data[i-1].name, @players_data[i-1].total_points.to_s ]
+      previous_points = @players_data[i-1].total_points
+    end
     result
   end
 
@@ -19,6 +24,12 @@ class TopTwentyReportData
       header:       true,
       row_colors:         ["ffffff", "eeeeee"]
     }
+  end
+
+  private
+
+  def adjusted_rank(rank, points, previous_points)
+    points == previous_points ? (rank - 1).to_s : rank.to_s
   end
 
 end
