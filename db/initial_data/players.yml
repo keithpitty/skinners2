@@ -7,7 +7,7 @@ paul_ball:
   id: 2
   first_name: Paul
   last_name: Ball
-  active: true
+  active: false
 gary_belgre:
   id: 3
   first_name: Gary
@@ -32,7 +32,7 @@ john_clouten:
   id: 7
   first_name: John
   last_name: Clouten
-  active: true
+  active: false
 phil_coles:
   id: 8
   first_name: Phil
@@ -67,7 +67,7 @@ tom_foreshew:
   id: 14
   first_name: Tom
   last_name: Foreshew
-  active: true
+  active: false
 paul_garnam:
   id: 15
   first_name: Paul
@@ -77,7 +77,7 @@ dale_garrett:
   id: 16
   first_name: Dale
   last_name: Garrett
-  active: true
+  active: false
 harry_henry:
   id: 17
   first_name: Harry
@@ -177,7 +177,7 @@ greg_prestwidge:
   id: 36
   first_name: Greg
   last_name: Prestwidge
-  active: true
+  active: false
 bob_rhodes:
   id: 37
   first_name: Bob
@@ -232,7 +232,7 @@ gary_worboys:
   id: 47
   first_name: Gary
   last_name: Warboys
-  active: true
+  active: false
 john_weary:
   id: 48
   first_name: John
@@ -297,7 +297,7 @@ mark_rowell:
   id: 60
   first_name: Mark
   last_name: Rowell
-  active: true
+  active: false
 mark_hines:
   id: 61
   first_name: Mark
