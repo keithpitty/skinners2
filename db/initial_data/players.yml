@@ -207,7 +207,7 @@ ian_spielvogel:
   id: 42
   first_name: Ian
   last_name: Spielvogel
-  active: true
+  active: false
 peter_stannard:
   id: 43
   first_name: Peter
@@ -387,7 +387,7 @@ kirk_jones:
   id: 78
   first_name: Kirk
   last_name: Jones
-  active: true
+  active: false
 peter_armstrong:
   id: 79
   first_name: Peter
