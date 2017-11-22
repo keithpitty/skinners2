@@ -327,7 +327,7 @@ paul_dickinson:
   id: 66
   first_name: Paul
   last_name: Dickinson
-  active: true
+  active: false
 peter_kent:
   id: 67
   first_name: Peter
@@ -377,12 +377,12 @@ jack_osborne:
   id: 76
   first_name: Jack
   last_name: Osborne
-  active: true
+  active: false
 dennis_honeysett:
   id: 77
   first_name: Dennis
   last_name: Honeysett
-  active: true
+  active: false
 kirk_jones:
   id: 78
   first_name: Kirk
