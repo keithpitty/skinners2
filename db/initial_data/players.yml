@@ -403,3 +403,7 @@ gary_findlay:
   first_name: Gary
   last_name: Findlay
   active: true
+braith_hyde:
+  id: 82
+  first_name: Braith
+  last_name: Hyde
