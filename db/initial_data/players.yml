@@ -87,7 +87,7 @@ norm_hollis:
   id: 18
   first_name: Norm
   last_name: Hollis
-  active: true
+  active: false
 terry_hook:
   id: 19
   first_name: Terry
