@@ -137,7 +137,7 @@ graham_mulholland:
   id: 28
   first_name: Graham
   last_name: Mulholland
-  active: true
+  active: false
 peter_nesteroff:
   id: 29
   first_name: Peter
