@@ -167,7 +167,7 @@ lee_payne:
   id: 34
   first_name: Lee
   last_name: Payne
-  active: active
+  active: false 
 keith_pitty:
   id: 35
   first_name: Keith
