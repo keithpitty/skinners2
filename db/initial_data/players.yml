@@ -407,3 +407,9 @@ braith_hyde:
   id: 82
   first_name: Braith
   last_name: Hyde
+  active: true
+tony_newcombe:
+  id: 83
+  first_name: Tony
+  last_name: Newcombe
+  active: true
